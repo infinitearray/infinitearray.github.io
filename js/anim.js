@@ -7,7 +7,7 @@ function onHover()
       document.getElementById('description').innerHTML="facebook.com/harshavardhan.bandi.1";
     }
     else if ($("#im3").is(":hover")) {
-      document.getElementById('description').innerHTML="bandiharshav97@gmail.com, harsha.bandi97@students.iiit.ac.in";
+      document.getElementById('description').innerHTML="bandiharshav97@gmail.com, harsha.bandi@students.iiit.ac.in";
     }
     else if ($("#im4").is(":hover")) {
       document.getElementById('description').innerHTML="twitter.com/harsha_bandi";
