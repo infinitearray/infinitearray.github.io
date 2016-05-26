@@ -17,12 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+     <script src="js/anim.js"></script>
 
 </head>
 
@@ -60,34 +55,35 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Full Width Image Header -->
-    <header>
-        <div class="headline">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Hey, I am Harsha Vardhan</p>
-            </div>
-        </div>
-    </header>
+      <div class="headline">
+          <div class="container">
+              <h2>Contact</h2>
+              <p>Hey, I am Harsha Vardhan</p>
+          </div>
+      </div>
 
     <table width=80% align="center" class="zoomin">
       <tr>
-      <td width="16.7%"><img src="post.png"/></td>
-      <td width="16.7%"><a href="https://www.facebook.com/harshavardhan.bandi.1"><img src="fb.png"/></a></td>
-      <td width="16.7%"><a href="mailto:bandiharshav97@gmail.com"><img src="gmail.png"/></a></td>
-      <td width="16.7%"><a href="https://twitter.com/harsha_bandi"><img src="twitter.png"/></a></td>
-      <td width="16.7%"><a href="https://github.com/infinitearray"><img src="git.png"/></a></td>
-      <td width="16.7%"><a href="https://bitbucket.org/infinitearray"><img src="bit.jpg"/></a></td>
+      <td width="16.7%"><img id="im1" onmouseover="onHover()"; src="post.png"/></td>
+      <td width="16.7%"><a href="https://www.facebook.com/harshavardhan.bandi.1"><img id="im2" onmouseover="onHover()"; src="fb.png"/></a></td>
+      <td width="16.7%"><a href="mailto:bandiharshav97@gmail.com"><img id="im3" onmouseover="onHover()"; src="gmail.png"/></a></td>
+      <td width="16.7%"><a href="https://twitter.com/harsha_bandi"><img id="im4" onmouseover="onHover()"; src="twitter.png"/></a></td>
+      <td width="16.7%"><a href="https://github.com/infinitearray"><img id="im5" onmouseover="onHover()"; src="git.png"/></a></td>
+      <td width="16.7%"><a href="https://bitbucket.org/infinitearray"><img id="im6" onmouseover="onHover()"; src="bit.jpg"/></a></td>
       </tr>
       <tr>
-        <td class="desc">Address</td>
-        <td class="desc">Facebook</td>
-        <td class="desc">Gmail</td>
-        <td class="desc">Twitter</td>
-        <td class="desc">Github</td>
-        <td class="desc">Bit Bucket</td>
+        <td><p class="desc">Address</p></td>
+        <td><p class="desc">Facebook</p></td>
+        <td><p class="desc">Email</p></td>
+        <td><p class="desc">Twitter</p></td>
+        <td><p class="desc">Github</p></td>
+        <td><p class="desc">Bit Bucket</p></td>
       </tr>
   </table>
+</br></br>
+  <div class="descbox" id='description'>
+      E-12, OBH - Palash Nivas, IIIT Hyderabad, Gachibowli, Hyderabad-500032
+  </div>
 
     <!-- Page Content -->
 

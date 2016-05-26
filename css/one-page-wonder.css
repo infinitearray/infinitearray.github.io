@@ -8,6 +8,13 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+
+
+.desc{
+   font-family: Impact, Charcoal, sans-serif;
+   font-size: 150%;
+}
+
 .zoomin img {
   height: 100px;
   width: 100px;
@@ -19,8 +26,14 @@ body {
   transition: all 0.15s ease;
   }
 
-.desc {
+.descbox {
+  width: 70%;
+  text-align: center;
+  margin-left: 12%;
   
+  color: grey;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 160%;
 }
 
 .zoomin img:hover{
@@ -51,7 +64,7 @@ body {
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .headline h1 {
