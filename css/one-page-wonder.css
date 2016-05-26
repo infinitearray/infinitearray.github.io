@@ -8,6 +8,26 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.zoomin img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  left : 5%;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  }
+
+.desc {
+  
+}
+
+.zoomin img:hover{
+  width: 120px;
+  height: 120px;
+  }
+
 .header-image {
     display: block;
     width: 100%;
