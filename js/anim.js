@@ -18,4 +18,7 @@ function onHover()
     else if ($("#im6").is(":hover")) {
       document.getElementById('description').innerHTML="bitbucket.org/infinitearray";
     }
+    else if ($("#im7").is(":hover")) {
+      document.getElementById('description').innerHTML="+91 9573533879, +91 9885900595";
+    }
 };
