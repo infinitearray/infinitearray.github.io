@@ -22,8 +22,3 @@ function onHover()
       document.getElementById('description').innerHTML="+91 9573533879,<br> +91 9885900595";
     }
 };
-
-function myimg()
-{
-  document.getElementById('id')
-}
