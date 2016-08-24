@@ -37,6 +37,14 @@
 				        	$('#userPic').attr('src', response.data.url);
 				      	}
 				    });
+				    FB.api("/me/name?width=200&redirect=0&type=normal&height=200", function (response) {
+				      	if (response && !response.error) {
+				        	/* handle the result */
+				        	console.log('PIC ::', response);
+				        	$('#Name').attr(response.data.name);
+				      	}
+				    });
+
 				}
 			}
 		);
@@ -79,7 +87,9 @@
 <div id="userDetails">
 	<img src="" id="userPic" />
 	<div id="userInfo"></div>
+	<div id="Name"></div>
 </div>
+
 <button id="loginBtn" onclick="logIn();" value="Login">Login</button>
 <button id="logoutBtn" onclick="logOut();" value="Logout">Logout</button>
 </body>
